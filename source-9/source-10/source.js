@@ -16,6 +16,9 @@ let main = ()=>{
 
 }
 
+function confusios(what, is, the, clue){
+    what(is, the, clue)
+}
 
 
 function confusion(abcd,abcdef,abdefg={}){
@@ -41,23 +44,23 @@ function confusion(abcd,abcdef,abdefg={}){
 
 }
 
+
+
 function init(){
     return {
         'dumb': {
             abc: 'https://'
         } ,
         'dummy': {
-            abcdefg:'next link domain'
+            abcdefg:'same link domain'
         },
         'dummer':{
-            abcd:'path'
+            abcd:'stage + "x+1" '
         }
 
     }
 }
 
-function confusios(what, is, the, clue){
-    what(is, the, clue)
-}
+
 
 main()
